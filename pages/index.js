@@ -27,7 +27,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gradient-to-b from-gray-800 to-gray-500 px-10 md:px-20 lg:px-40">
+      <main className="bg-gradient-to-b from-gray-700 to-gray-500 px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-Heebo">Developed by anthonytruongg</h1>
@@ -65,7 +65,7 @@ export default function Home() {
             </p>
           </div>
           {/* <div className="text-5xl flex justify-center gap-16 py-3 pb-10 text-gray-300"> */}
-          <div className="text-center gap-16 p-10 shadow-2xl text-5xl rounded-xl bg-slate-500 lg:flex lg:flex-col lg:items-center">
+          <div className="text-center gap-16 p-10  text-5xl rounded-xl  lg:flex lg:flex-col lg:items-center">
             <h3 className="text-2xl py-2 pb-10 font-medium">Contact Me</h3>
             <div className="text-5xl flex justify-center gap-16 py-3 pb-10 text-white">
               <a href="https://github.com/anthonytruongg">
@@ -96,7 +96,7 @@ export default function Home() {
                 stack application is built with MongoDB, Express, React, and
                 Node.js. It utilizes a authentication system and calls an API to
                 keep track of the users' todo's. The frontend has been deployed
-                on Render, and backend on Cylic.
+                on Render, and backend on Cyclic.
               </p>
             </div>
 
