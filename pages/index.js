@@ -92,11 +92,11 @@ export default function Home() {
                 their task. The user has access to their Todo list, conveniently
                 placed to the left of the timer. To the right, there is an API
                 call to a public database to fetch a quote to help motivate
-                users as well as an embedded "lofi" music player. This full
-                stack application is built with MongoDB, Express, React, and
-                Node.js. It utilizes a authentication system and calls an API to
-                keep track of the users' todo's. The frontend has been deployed
-                on Render, and backend on Cyclic.
+                users as well as an embedded lofi music player. This full stack
+                application is built with MongoDB, Express, React, and Node.js.
+                It utilizes a authentication system and calls an API to keep
+                track of the user todos. The frontend has been deployed on
+                Render, and backend on Cyclic.
               </p>
 
               <h4 className="text-xl font-medium py-4 pt-10">ListMe</h4>
@@ -130,9 +130,9 @@ export default function Home() {
                 />
               </a>
               <p className="text-md py-2 leading-8 text-gray-300 font-light">
-                A memory game that tests the user's memory by having them select
+                A memory game that tests the user memory by having them select
                 cards with colors. If the same card is selected twice, the game
-                is over. The user's score is tracked and displayed at the bottom
+                is over. The user score is tracked and displayed at the bottom
                 of the screen. The game is built with React framework.
               </p>
             </div>
