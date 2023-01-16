@@ -8,8 +8,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Russo: ["Russo One"],
         Heebo: ["Heebo"],
+        Inter: ['"Inter"'],
+        IBM: ["IBM Plex Sans"],
+        MHei: ["M Hei PRC"],
+        Noto: ["Noto Sans KR"],
+      },
+      backgroundImage: {
+        backgroundOne: "url('/img/background.png')",
+        backgroundTwo: "url('/img/backgroundTwo.png')",
+        backgroundThree: "url('/img/backgroundThree.png')",
       },
     },
   },
