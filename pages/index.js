@@ -16,7 +16,7 @@ import { DiNodejs } from "react-icons/di";
 import Image from "next/image";
 import Pomo from "../public/img/pomodomo.png";
 import ListMe from "../public/img/listme.png";
-import MemoryGame from "../public/img/memorygame.png";
+import Memory from "../public/img/memory.png";
 
 export default function Home() {
   return (
@@ -126,7 +126,7 @@ export default function Home() {
                   alt=""
                   width={800}
                   height={300}
-                  src={MemoryGame}
+                  src={Memory}
                 />
               </a>
               <p className="text-md py-2 leading-8 text-gray-300 font-light">
