@@ -129,8 +129,8 @@ export default function Home() {
               <p className="text-md py-2 leading-8 text-gray-300 font-light">
                 A memory game that tests the user memory by having them select
                 cards with colors. If the same card is selected twice, the game
-                is over. The user score is tracked and displayed at the bottom
-                of the screen. The game is built with React framework.
+                is over. The user score is tracked and displayed at the top of
+                the screen. The game is built with React framework.
               </p>
             </div>
 
@@ -175,10 +175,15 @@ export default function Home() {
 
             <p className="text-md py-2 leading-8 pb-10 text-gray-300 font-light">
               As a current student at Santa Ana/Santiago Canyon College, I
-              embarked on my college journey as an undeclared major. However,
-              after taking my first programming course, I discovered my passion
-              for Computer Engineering and made it my major. I am excited to
-              continue my studies at the University of California in Fall 2023.
+              embarked on my college journey as an undeclared major. I was never
+              good at math and science until I learned to reshape my mindset.
+              After taking my first programming and physics course, I discovered
+              my passion for Computer Engineering and made it my major. Not only
+              have I enjoyed learning about math and science, I also dived into
+              web development as a side hobby and saw the potential to create
+              something life changing given the right knowledge. I am excited to
+              transfer to a University of California this Fall 2023 and earn my
+              degree.
             </p>
           </div>
         </section>
