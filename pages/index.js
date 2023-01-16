@@ -69,9 +69,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-        </section>
-
-        <section>
           <div>
             <div className="my-10 text-center p-10 lg:p-0 shadow-2xl rounded-xl bg-gradient-to-b from-emerald-800 lg:flex lg:flex-col lg:items-center">
               <h3 className="text-2xl py-2 pb-4 font-medium">My Projects</h3>
