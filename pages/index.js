@@ -12,12 +12,10 @@ import {
 import { MdOutlinePictureAsPdf } from "react-icons/md";
 import { DiNodejs } from "react-icons/di";
 
-import Image from "next/Image";
+import Image from "next/image";
 import Pomo from "../public/img/pomodomo.png";
 import ListMe from "../public/img/listme.png";
 import Memory from "../public/img/memory.png";
-import GIFONE from "../public/img/gifone.gif";
-import SecondGif from "../public/img/secondgif.gif";
 
 export default function Home() {
   return (
