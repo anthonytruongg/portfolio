@@ -12,7 +12,7 @@ import {
 import { MdOutlinePictureAsPdf } from "react-icons/md";
 import { DiNodejs } from "react-icons/di";
 
-import Image from "next/image";
+import Image from "next/Image";
 import Pomo from "../public/img/pomodomo.png";
 import ListMe from "../public/img/listme.png";
 import Memory from "../public/img/memory.png";
