@@ -80,17 +80,19 @@ export default function Home() {
               <a href="https://flashcard-app-anthonytruongg.vercel.app/">
                 <Image
                   className="hover:shadow-2xl hover:-translate-y-4 transition ease-in-out"
-                  alt=""
+                  alt="Gif Two"
                   width={800}
                   height={300}
                   src={Gif2}
+                  unoptimized={true}
                 />
                 <Image
                   className="hover:shadow-2xl hover:-translate-y-4 transition ease-in-out pt-4"
-                  alt=""
+                  alt="Gif One"
                   width={800}
                   height={300}
                   src={Gif}
+                  unoptimized={true}
                 />
               </a>
               <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
