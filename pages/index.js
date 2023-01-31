@@ -16,6 +16,8 @@ import Image from "next/image";
 import Pomo from "../public/img/pomodomo.png";
 import ListMe from "../public/img/listme.png";
 import Memory from "../public/img/memory.png";
+import Gif from "../public/img/gifone.gif";
+import Gif2 from "../public/img/secondgif.gif";
 
 export default function Home() {
   return (
@@ -81,14 +83,14 @@ export default function Home() {
                   alt=""
                   width={800}
                   height={300}
-                  src="/img/secondgif.gif"
+                  src={Gif2}
                 />
                 <Image
                   className="hover:shadow-2xl hover:-translate-y-4 transition ease-in-out pt-4"
                   alt=""
                   width={800}
                   height={300}
-                  src="/img/gifone.gif"
+                  src={Gif}
                 />
               </a>
               <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
