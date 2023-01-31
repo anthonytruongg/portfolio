@@ -64,7 +64,7 @@ export default function Home() {
                 <AiFillLinkedin className="gap-6 hover:-translate-y-2 lg:hover:-translate-y-4 transition ease-in-out" />
                 <p className="text-sm font-Noto">LinkedIn</p>
               </a>
-              <a href="https://drive.google.com/file/d/1m-gzKKCzYrFmHSupoQcQdBIA6RmcuyJ0/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1wZ55nJsblrIm2QI24I4XsznCpgmWMKMc/view">
                 <MdOutlinePictureAsPdf className="text-white gap-6 hover:-translate-y-2 lg:hover:-translate-y-4 transition ease-in-out" />
                 <p className="text-sm font-Noto">Resume</p>
               </a>
