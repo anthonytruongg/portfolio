@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
+import { Inter, Secular_One } from "@next/font/google";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { IoLogoJavascript, IoSchool } from "react-icons/io5";
 import {
@@ -17,6 +17,8 @@ import Image from "next/image";
 import Pomo from "../public/img/pomodomo.png";
 import ListMe from "../public/img/listme.png";
 import Memory from "../public/img/memory.png";
+import GIFONE from "../public/img/gifone.gif";
+import SecondGif from "../public/img/secondgif.gif";
 
 export default function Home() {
   return (
@@ -72,6 +74,37 @@ export default function Home() {
           <div>
             <div className="my-10 text-center p-10 shadow-2xl rounded-xl bg-gradient-to-b from-emerald-800 lg:flex lg:flex-col lg:items-center">
               <h3 className="text-2xl py-2 pb-4 font-medium">My Projects</h3>
+              <h4 className="text-xl font-medium py-4 pt-10">
+                TestMe | Flashcard Application
+              </h4>
+
+              <a href="https://flashcard-app-anthonytruongg.vercel.app/">
+                <Image
+                  className="hover:shadow-2xl hover:-translate-y-4 transition ease-in-out"
+                  alt=""
+                  width={800}
+                  height={300}
+                  src={SecondGif}
+                />
+                <Image
+                  className="hover:shadow-2xl hover:-translate-y-4 transition ease-in-out pt-4"
+                  alt=""
+                  width={800}
+                  height={300}
+                  src={GIFONE}
+                />
+              </a>
+              <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
+                A fullstack CRUD application that allows users to create new
+                flashcards. Users are able to study the flashcards through the
+                study tab, which flips the terms and definitions. Users can also
+                edit and delete existing flashcards. This full stack application
+                is built with MongoDB, Express, React, and Node. This project
+                solidified my knowledge of user authentication, protected
+                routes, and CRUD operations. The frontend is hosted through
+                Vercel, and backend has been deployed on cyclic.
+              </p>
+
               <h4 className="text-xl font-medium py-4 pt-10">PomoDomo Study</h4>
               <a href="https://pomodomo.onrender.com/">
                 <Image
@@ -82,7 +115,7 @@ export default function Home() {
                   src={Pomo}
                 />
               </a>
-              <p className="text-md py-2 leading-8 text-gray-300 font-light">
+              <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
                 A timer application that helps you focus on your work by using
                 the Pomodoro Technique, which is a timer set in intervals with
                 breaks included in between to help the user stay focused on
@@ -107,7 +140,7 @@ export default function Home() {
                   src={ListMe}
                 />
               </a>
-              <p className="text-md py-2 leading-8 text-gray-300 font-light">
+              <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
                 Designed and developed a To-do list web application in
                 JavaScript and HTML/CSS which uses multiple arrays to store task
                 data. The data is stored via local storage. Designed for minimal
@@ -126,7 +159,7 @@ export default function Home() {
                   src={Memory}
                 />
               </a>
-              <p className="text-md py-2 leading-8 text-gray-300 font-light">
+              <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
                 A memory game that tests the user memory by having them select
                 cards with colors. If the same card is selected twice, the game
                 is over. The user score is tracked and displayed at the top of
@@ -137,7 +170,7 @@ export default function Home() {
             <div className="text-center p-10 shadow-2xl rounded-xl bg-gradient-to-b from-emerald-800 lg:flex lg:flex-col lg:items-center">
               <h3 className="text-2xl py-2 pb-2 font-medium">Skills</h3>
 
-              <p className="text-md py-2 leading-8 pb-10 text-gray-300 font-light">
+              <p className="text-md pt-8 py-4 leading-8 pb-10 text-gray-300 font-light">
                 Through building smaller projects, I was able to learn the
                 basics of HTML, JS, and CSS. Over my winter 2023 break, my
                 desire to learn the frontend frameworks and backend technologies
