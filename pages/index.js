@@ -83,14 +83,14 @@ export default function Home() {
                   alt=""
                   width={800}
                   height={300}
-                  src={SecondGif}
+                  src="/img/secondgif.gif"
                 />
                 <Image
                   className="hover:shadow-2xl hover:-translate-y-4 transition ease-in-out pt-4"
                   alt=""
                   width={800}
                   height={300}
-                  src={GIFONE}
+                  src="/img/gifone.gif"
                 />
               </a>
               <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
