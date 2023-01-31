@@ -1,7 +1,6 @@
 import Head from "next/head";
-import { Inter, Secular_One } from "@next/font/google";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { IoLogoJavascript, IoSchool } from "react-icons/io5";
+import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiHtml5,
   SiTailwindcss,
