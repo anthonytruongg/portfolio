@@ -104,7 +104,7 @@ export default function Home() {
                 Vercel, and backend has been deployed on cyclic.
               </p>
 
-              <h4 className="text-xl font-medium py-4 pt-10">PomoDomo Study</h4>
+              {/* <h4 className="text-xl font-medium py-4 pt-10">PomoDomo Study</h4>
               <a href="https://pomodomo.onrender.com/">
                 <Image
                   className="hover:shadow-2xl hover:-translate-y-4 transition ease-in-out"
@@ -126,7 +126,7 @@ export default function Home() {
                 It utilizes a authentication system and calls an API to keep
                 track of the user todos. The frontend has been deployed on
                 Render, and backend on Cyclic.
-              </p>
+              </p> */}
 
               <h4 className="text-xl font-medium py-4 pt-10">ListMe</h4>
 
