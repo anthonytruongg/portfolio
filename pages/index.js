@@ -31,14 +31,14 @@ export default function Home() {
         {/* <main className="bg-gradient-to-b from-gray-700 to-gray-500 px-10 md:px-20 lg:px-40 bg-homeBackground"> */}
         <section className="min-h-screen">
           <div className="text-center p-10">
-            <h2 className="text-4xl lg:text-5xl py-2 text-emerald-500 font-Inter font-bold">
+            <h2 className="text-4xl lg:text-5xl py-2 text-white font-Inter font-bold">
               Anthony Truong
             </h2>
             <h3 className="text-2xl py-2 text-white font-Inter font-medium">
               Web Developer
             </h3>
             <h3 className="text-2xl py-2 pb-4 font-medium">About me</h3>
-            <p className="text-md py-3 leading-8 text-gray-200 font-light">
+            <p className="text-md sm:text-xl py-3 leading-8 text-gray-200 font-light">
               As a Computer Engineering student with a passion for technology, I
               have always enjoyed learning about and exploring new technologies.
               As a kid, my interest in development began in 2012 when I created
@@ -72,8 +72,10 @@ export default function Home() {
           </div>
           <div>
             <div className="my-10 text-center p-10 shadow-2xl rounded-xl bg-gradient-to-b from-emerald-800 lg:flex lg:flex-col lg:items-center">
-              <h3 className="text-2xl py-2 pb-4 font-medium">My Projects</h3>
-              <h4 className="text-xl font-medium py-4 pt-10">
+              <h3 className="text-2xl sm:text-5xl py-2 pb-4 font-bold">
+                My Projects
+              </h3>
+              <h4 className="text-xl sm:text-3xl font-medium py-4 pt-10">
                 TestMe | Flashcard Application
               </h4>
 
@@ -93,7 +95,7 @@ export default function Home() {
                   src={Gif}
                 />
               </a>
-              <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
+              <p className="text-md sm:text-xl pt-8 py-4 leading-8 text-gray-300 font-light">
                 A fullstack CRUD application that allows users to create new
                 flashcards. Users are able to study the flashcards through the
                 study tab, which flips the terms and definitions. Users can also
@@ -128,7 +130,9 @@ export default function Home() {
                 Render, and backend on Cyclic.
               </p> */}
 
-              <h4 className="text-xl font-medium py-4 pt-10">ListMe</h4>
+              <h4 className="text-xl sm:text-3xl font-medium py-4 pt-10">
+                ListMe
+              </h4>
 
               <a href="https://anthonytruongg.github.io/ListMe/">
                 <Image
@@ -139,7 +143,7 @@ export default function Home() {
                   src={ListMe}
                 />
               </a>
-              <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
+              <p className="text-md sm:text-xl pt-8 py-4 leading-8 text-gray-300 font-light">
                 Designed and developed a To-do list web application in
                 JavaScript and HTML/CSS which uses multiple arrays to store task
                 data. The data is stored via local storage. Designed for minimal
@@ -147,7 +151,9 @@ export default function Home() {
                 together through Web-pack 5.
               </p>
 
-              <h4 className="text-xl font-medium py-4 pt-10">Memory Game</h4>
+              <h4 className="text-xl sm:text-3xl font-medium py-4 pt-10">
+                Memory Game
+              </h4>
 
               <a href="https://anthonytruongg.github.io/MemoryGame/">
                 <Image
@@ -158,7 +164,7 @@ export default function Home() {
                   src={Memory}
                 />
               </a>
-              <p className="text-md pt-8 py-4 leading-8 text-gray-300 font-light">
+              <p className="text-md sm:text-xl pt-8 py-4 leading-8 text-gray-300 font-light">
                 A memory game that tests the user memory by having them select
                 cards with colors. If the same card is selected twice, the game
                 is over. The user score is tracked and displayed at the top of
@@ -167,9 +173,11 @@ export default function Home() {
             </div>
 
             <div className="text-center p-10 shadow-2xl rounded-xl bg-gradient-to-b from-emerald-800 lg:flex lg:flex-col lg:items-center">
-              <h3 className="text-2xl py-2 pb-2 font-medium">Skills</h3>
+              <h3 className="text-2xl sm:text-3xl py-2 pb-2 font-medium">
+                Skills
+              </h3>
 
-              <p className="text-md pt-8 py-4 leading-8 pb-10 text-gray-300 font-light">
+              <p className="text-md sm:text-xl pt-8 py-4 leading-8 pb-10 text-gray-300 font-light">
                 Through building smaller projects, I was able to learn the
                 basics of HTML, JS, and CSS. Over my winter 2023 break, my
                 desire to learn the frontend frameworks and backend technologies
@@ -205,7 +213,7 @@ export default function Home() {
           <div className="text-center p-10 shadow-2xl rounded-xl bg-gradient-to-b from-emerald-800 lg:flex lg:flex-col lg:items-center">
             <h3 className="text-2xl py-2 pb-2 font-medium">Education</h3>
 
-            <p className="text-md py-2 leading-8 pb-10 text-gray-300 font-light">
+            <p className="text-md sm:text-xl py-2 leading-8 pb-10 text-gray-300 font-light">
               As a current student at Santa Ana/Santiago Canyon College, I
               embarked on my college journey as an undeclared major. I was never
               good at math and science until I learned to reshape my mindset.
