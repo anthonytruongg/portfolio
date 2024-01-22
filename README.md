@@ -1,3 +1,3 @@
 # LIVE VIEW:
 
-https://portfolio-anthonytruongg.vercel.app/
+https://anthonytruongg.vercel.app/
